@@ -224,6 +224,7 @@ void StandBy()
 void Battle()
 {
 	Enemy_Health = 100;
+	int flag = 0; //keluar
 	while(Health > 0 && Enemy_Health > 0)
 	{
 		system("clear");
@@ -249,8 +250,10 @@ void Battle()
 
 			case 2:
 			Mode = 0;
+			flag = 1; //run battle
 			break;
 		}
+		if ( flag == 1 ) break;
 		sleep(1);
 	}
 	if(Health <= 0)
