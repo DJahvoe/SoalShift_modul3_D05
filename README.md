@@ -1,6 +1,6 @@
 # SoalShift_modul3_D05
 
-## 1
+## Soal 1
 - Problem : Menghitung faktorial secara parallel lalu menampilkan hasilnya secara berurutan.
 
 - Tools : <br/>
@@ -12,7 +12,7 @@
 - Approach : <br/>
 Untuk menyelesaikan permasalahan tersebut kita menggunakan thread agar penghitungan faktorial berjalan secara pararel. Dimulai dengan mendapatkan inputan dari user kemudian hasil inputan diurutkan, setiap kita menghitung faktorial dari tiap elemen array yang telah diurutkan pada thread, satu data dihitung oleh satu thread.
 
-## 4
+## Soal 4
 - Problem : Menyimpan list proses yang sedang berjalan (ps -aux) maksimal 10 list proses. list proses disimpan dalam file  SimpanProses1.txt & SimpanProses2.txt  di direktori /home/Document/FolderProses1, tiap file dikompres format nama file KompresProses*.zip dengan file source dihapus, setelah itu program akan menunggu selama 15 detik lalu program akan mengekstrak kembali file kompres.
 
 - Tools : <br/>
