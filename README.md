@@ -26,9 +26,9 @@ Untuk menyelesaikan permasalahan tersebut kita menggunakan thread agar penghitun
   
 - Approach : <br/>
 Untuk menyelesaikan permasalahan tersebut kita menggunakan thread. Dengan ketentuan satu proses dilakukan oleh satu thread agar proses berjalan secara bersama-sama. Dalam melakukan command sistem kita menggunakan fungsi sprintf() yang fungsinya sama dengan stringcopy tetapi bisa mengenali format printf di c. Pertama-tama kita membuat direktori dengan 'system()' 'mkdir'. Selanjutnya untuk proses pengambilan list kita menggunakan 'ps aux --no-heading' agar heading seperti USER PID %CPU dsb tidak diambil. Hasil ps aux diambil dengan 'head -n' dan 'tail -n'. dimana 'n' head betambah 10 pada proses kedua. Hasil pengambilan list disimpan pada file SimpanProses#.txt pada folder home/Document/FolderProses#. Setelah itu, kita mengkompres file dengan 'system' 'zip -qmj'.
-  - q agar tidak menampilkan promp message saat compress file, 
-  - m agar file source zip dihapus, 
-  - j agar dalam file zip tidak mengandung path direktori. 
+    - q agar tidak menampilkan promp message saat compress file, 
+    - m agar file source zip dihapus, 
+    - j agar dalam file zip tidak mengandung path direktori. 
 setelah itu kita sleep program selama 15 detik. Kemudian kita ekstrak file dengan 'system' 'unzip -qd'.
-  - q agar tidak menampilkan promp message, 
-  - d untuk mengekstrak pada folder sesuai keinginan kita. 
+    - q agar tidak menampilkan promp message, 
+    - d untuk mengekstrak pada folder sesuai keinginan kita. 
